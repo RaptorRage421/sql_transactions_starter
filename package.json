@@ -1,0 +1,20 @@
+{
+  "name": "sql-transactions-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "server" : "npm start",
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.3.3"
+  }
+}
